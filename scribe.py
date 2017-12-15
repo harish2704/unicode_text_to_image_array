@@ -59,9 +59,9 @@ def scribe_wrapper(text, font_style,
     letter_wd = .7 * line_ht
     width = round((n_letters+2) * letter_wd)
 
-    print("Lines:", n_lines, "Letters:", n_letters)
-    print("Line Height:", line_ht, " Letter Width:", letter_wd)
-    print("\nFont:{}\nWidth, Height:{} Area={}\nMargins:{}\nRotation:{}".format(
+    # print("Lines:", n_lines, "Letters:", n_letters)
+    # print("Line Height:", line_ht, " Letter Width:", letter_wd)
+    # print("\nFont:{}\nWidth, Height:{} Area={}\nMargins:{}\nRotation:{}".format(
         font_style, (width, height), width*height, hbuffer, vbuffer, twist))
 
     return scribe(text, font_style, width, height, hbuffer, vbuffer, twist)
