@@ -90,8 +90,8 @@ def slab_print(slab, col_names=None):
 
 
 
-hindi = "तपःस्वा"
-telugu = "తపస్స్వాధ్యాయనిరతం \nతపస్వీ వాగ్విదాం వరమ్ |"
-img = scribe_wrapper(hindi, "Mangal Italic 24", 45, 5, 0, 0)
-img = horztrim(img, 3)
-slab_print(img)
+# hindi = "तपःस्वा"
+# telugu = "తపస్స్వాధ్యాయనిరతం \nతపస్వీ వాగ్విదాం వరమ్ |"
+# img = scribe_wrapper(hindi, "Mangal Italic 24", 45, 5, 0, 0)
+# img = horztrim(img, 3)
+# slab_print(img)
