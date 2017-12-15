@@ -8,9 +8,9 @@ import array
 
 import numpy as np
 
-import cffi_wrapper as cp
+from . import cffi_wrapper as cp
 import cairocffi
-from trimmers import horztrim
+from .trimmers import horztrim
 
 
 def scribe(text, font_style,
